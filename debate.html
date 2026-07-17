@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Udbhav 2026 | National Inter-University Debate Competition</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Udbhav: 19th National Inter-University Debate Competition under YUVA 2026. Bilingual debate platform for university students across India." />
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="img/icon.png" />
+  
+  <!-- Custom Modern Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+  
+  <style>
+    .topic-card {
+      background-color: var(--white);
+      border-radius: var(--border-radius);
+      padding: 2.5rem;
+      box-shadow: var(--shadow-md);
+      border-top: 5px solid var(--saffron);
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+    .topic-card span {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--saffron);
+      margin-bottom: 0.75rem;
+    }
+    .topic-text {
+      font-size: 1.5rem;
+      color: var(--navy);
+      font-weight: 700;
+      line-height: 1.45;
+      margin-bottom: 1.5rem;
+      font-family: 'Cinzel', serif;
+    }
+    .topic-hindi {
+      font-size: 1.5rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      color: var(--gray-dark);
+      line-height: 1.6;
+      margin: 0;
+    }
+    .prize-badge-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .prize-badge {
+      background: var(--navy-light);
+      border-radius: var(--border-radius);
+      padding: 1.5rem;
+      text-align: center;
+      border: 1px dashed var(--navy);
+    }
+    .prize-badge.first {
+      background: var(--saffron-light);
+      border-color: var(--saffron);
+    }
+    .prize-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--gray-dark);
+      margin-bottom: 0.25rem;
+    }
+    .prize-amount {
+      font-size: 1.85rem;
+      font-weight: 800;
+      color: var(--navy);
+      font-family: 'Inter', sans-serif;
+    }
+    .prize-badge.first .prize-amount {
+      color: var(--saffron);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container">
+      <a class="logo" href="index.html">
+        <img src="img/logo.png" alt="YUVA 2026 Logo" />
+      </a>
+      
+      <!-- Hamburger Menu for Mobile -->
+      <button class="hamburger" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Nav Menu -->
+      <ul class="nav-menu">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Register <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="nav-dropdown">
+            <li class="nav-dropdown-item"><a href="https://forms.gle/6LHhZYqBAThUkKtR8" target="_blank">National Youth Conference</a></li>
+            <li class="nav-dropdown-item"><a href="https://forms.gle/Mssme3FTWRvvaySRA" target="_blank">Paper Submission</a></li>
+            <li class="nav-dropdown-item"><a href="https://forms.gle/W7Wg38LLtb8TymiC7" target="_blank">National Debate</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link" href="#">Events <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="nav-dropdown">
+            <li class="nav-dropdown-item"><a href="conference.html">National Youth Conference</a></li>
+            <li class="nav-dropdown-item"><a href="debate.html">National Debate</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Brochures <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          <ul class="nav-dropdown">
+            <li class="nav-dropdown-item"><a href="2026_Manthan_Brochure.pdf" target="_blank">National Youth Conference</a></li>
+            <li class="nav-dropdown-item"><a href="YUVA_26_Udbhav_Brochure.pdf" target="_blank">National Debate</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="dignitaries.html">Dignitaries</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link btn btn-primary btn-sm" href="https://forms.gle/W7Wg38LLtb8TymiC7" target="_blank">Register</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Inner Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Udbhav 2026</h1>
+      <div class="page-hero-subtitle">19<sup>th</sup> National Inter-University Debate Competition · January 14-15, 2026</div>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="section-padding">
+    <div class="container">
+      
+      <!-- Bilingual Topic Card -->
+      <div class="topic-card">
+        <span>Debate Motion / वाद-विवाद का विषय</span>
+        <div class="topic-text">"Digital economy is fully capable of fulfilling the real needs of Indian youth."</div>
+        <div class="topic-hindi">"डिजिटल अर्थव्यवस्था भारतीय युवाओं की वास्तविक आवश्यकताओं की पूर्ति करने में पूर्णतः सक्षम है।"</div>
+      </div>
+
+      <div class="grid-2" style="align-items: flex-start; margin-bottom: 4rem;">
+        <!-- Left column: image -->
+        <div style="background-color: var(--white); padding: 1.5rem; border-radius: var(--border-radius); box-shadow: var(--shadow-md);">
+          <img src="Udbhav2026.png" alt="Udbhav 2026 poster" style="width: 100%; border-radius: var(--border-radius); display: block;" />
+        </div>
+        
+        <!-- Right column: overview & prizes -->
+        <div>
+          <h2 style="text-align: left; margin-bottom: 1.5rem;">Awards & Recognition</h2>
+          <p>Udbhav provides a nationwide competitive stage to celebrate debate eloquence. Outstanding speakers are honored with prestigious awards, trophies, and cash prizes to recognize their debating talent.</p>
+          
+          <div class="prize-badge-grid">
+            <div class="prize-badge first">
+              <div class="prize-title">Winner Prize</div>
+              <div class="prize-amount">Rs. 5,000</div>
+            </div>
+            <div class="prize-badge">
+              <div class="prize-title">Runner Up</div>
+              <div class="prize-amount">Rs. 3,000</div>
+            </div>
+          </div>
+          
+          <p>Additionally, each category (Hindi & English) will feature:</p>
+          <ul class="guidelines-list" style="margin-bottom: 1.5rem;">
+            <li>A prestigious <strong>Winner's Shield</strong> awarded to the top university team</li>
+            <li><strong>Two Consolation Prizes</strong> for outstanding speakers</li>
+            <li><strong>Four Special Recognition Prizes</strong> in each language category</li>
+            <li>Official <strong>Participation Certificates</strong> awarded to all contest delegates</li>
+          </ul>
+          
+          <p style="font-size: 0.9rem; color: var(--gray-dark); font-style: italic;">Note: The Pantnagar University host team competes for individual speaker prizes only.</p>
+        </div>
+      </div>
+
+      <!-- Guidelines Box -->
+      <div class="guidelines-box">
+        <h3>Debate Rules & Guidelines</h3>
+        <ul class="guidelines-list">
+          <li><strong>Bilingual Contest Structure:</strong> The debate is conducted in Hindi and English separately on the campus of G.B. Pant University of Agriculture & Technology.</li>
+          <li><strong>Team Representation:</strong> Each participating university is entitled to enter two teams of two delegates each (one Hindi, one English team). In each team, one member speaks <strong>for</strong> and one member speaks <strong>against</strong> the topic.</li>
+          <li><strong>Fostering New Talents:</strong> To constantly promote and encourage new speakers, any previous participants who have secured first position in this contest in past years are not eligible to compete.</li>
+          <li><strong>Time Allotment:</strong> Each speaker is allotted <strong>5 + 1 minutes</strong>. Immediately following each speech, there will be a Q&A session.</li>
+          <li><strong>Question & Answer Round:</strong> The questions from judges/house will be restricted to 1 minute, and the speaker's response must be completed in the next 2 minutes.</li>
+          <li><strong>No Written Speeches:</strong> Speakers reading from pre-written text will not be eligible for prizes. A single slip of paper bearing only brief key bullet points is permitted.</li>
+          <li><strong>Final Adjudication:</strong> The decisions of the judging panel shall be final and binding on all participating universities.</li>
+          <li><strong>Registration Deadline:</strong> The final date for debate team registration is <strong>November 25, 2025</strong>.</li>
+        </ul>
+
+        <div style="text-align: center; background-color: var(--gray-light); padding: 2rem; border-radius: var(--border-radius); margin-top: 2rem;">
+          <h4 style="margin: 0 0 1rem; font-family: 'Inter', sans-serif; font-weight: 700; color: var(--navy);">Join the National Debate Arena</h4>
+          <a href="https://forms.gle/W7Wg38LLtb8TymiC7" target="_blank" class="btn btn-primary btn-lg">Register for National Debate</a>
+        </div>
+      </div>
+
+      <!-- Contacts & E-mail -->
+      <div style="margin-top: 4rem; background-color: var(--white); border-radius: var(--border-radius); padding: 2.5rem; box-shadow: var(--shadow-sm); border: 1px solid var(--gray-light);">
+        <h3 style="margin-bottom: 1rem;">Contact Info for Udbhav</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+          <div>
+            <strong style="display: block; font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--navy);">Debate Coordinators</strong>
+            <p style="margin-bottom: 0.5rem;">Shambhavi Rai: <a href="tel:9569908114" style="font-weight: 600;">+91-9569908114</a></p>
+            <p style="margin: 0;">Snigdh Awasthi: <a href="tel:8318569439" style="font-weight: 600;">+91-8318569439</a></p>
+          </div>
+          <div>
+            <strong style="display: block; font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--navy);">Email Address</strong>
+            <p style="margin: 0;"><a href="mailto:yuva.pantnagar@gmail.com" style="font-weight: 600; color: var(--saffron);">yuva.pantnagar@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Contact Col -->
+        <div class="footer-col">
+          <h5>Our Contact</h5>
+          <address>
+            <p style="color: var(--white); font-weight: 700; margin-bottom: 0.5rem;">Vivekanand Swadhyay Mandal</p>
+            Pantnagar, Uttarakhand<br>
+            Pincode - 263145<br><br>
+            Email: <a href="mailto:iyc.pantnagar@gmail.com" style="color: var(--saffron);">iyc.pantnagar@gmail.com</a>
+          </address>
+        </div>
+        <!-- Social Col -->
+        <div class="footer-col">
+          <h5>Follow Us</h5>
+          <ul class="footer-links">
+            <li><a href="https://www.facebook.com/yuva.pantnagar" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/vsmpantnagar/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/user/vsmpantnagarchannel" target="_blank">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/company/vivekananda-swadhyay-mandal" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="https://www.vsmpantnagar.org" target="_blank">VSM Website</a></li>
+            <li><a href="https://www.google.com/maps/place/G.B.+Pant+University+Of+Agriculture+And+Technology/@29.0228673,79.4857472,17z/data=!3m1!4b1!4m5!3m4!1s0x39091c4086dd02cb:0x39248f0543ed8f5a!8m2!3d29.0228626!4d79.4879412?hl=en-US" target="_blank">Locate Us (Map)</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 YUVA. Created By <strong>Team VSM</strong>. All Rights Reserved.</p>
+        <p>Vivekananda Swadhyaya Mandal, Pantnagar</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <a href="#" class="scrollup" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>
+  </a>
+
+  <!-- Shared Javascript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
